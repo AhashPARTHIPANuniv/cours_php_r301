@@ -1,0 +1,89 @@
+.column {
+    float: left;
+}
+
+.col-100 {
+    width: 100%;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.primary {
+    background-color: #3366ff;
+    color: white;
+}
+
+.primary:hover {
+    background-color: #0843f5;
+}
+
+.button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.card {
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0, 2);
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    margin: 5px;
+}
+
+
+.container {
+    padding: 2px 16px;
+}
+
+.avatar {
+    border-radius: 5px;
+    max-height: 400px;
+}
+
+.content {
+    margin-top: 50px;
+}
+
+
+@keyframes apparition {
+    from {
+        scale: 0;
+        opacity: 0%;
+    }
+
+    to {
+        scale: 1;
+        opacity: 100%;
+    }
+}
+
+.apparition {
+    animation-name: apparition;
+    animation-duration: 1s;
+}
+
+@keyframes disparition {
+    from {
+        scale: 1;
+        opacity: 100%;
+    }
+
+    to {
+        scale: 0;
+        opacity: 0%;
+    }
+}
+
+.disparition {
+    animation-name: disparition;
+    animation-duration: 1s;
+}
